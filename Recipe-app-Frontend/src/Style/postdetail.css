@@ -1,0 +1,76 @@
+.post-detail{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-size: 100% auto; /* Stretch the image horizontally while maintaining aspect ratio */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+    z-index: 2;
+    position:fixed;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 30px;
+}
+.attributes{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 30px;
+    position: fixed;
+    top: 550px; /* Adjust the top position as needed */
+    left: 160px; /* Adjust the left position as needed */
+    width: 20%;
+}
+.close-button {
+    position: absolute;
+    top: -3px;
+    right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+    font-size: 50px;
+}
+.comments p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .showcomments {
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+    width: auto; /* Adjust the width as needed */
+    font-size: 12px;
+  }
+.addcomment{
+    background: none;
+    width: 60%;
+}
+.contentedit textarea {
+    width: 100%; /* Adjust the width as needed */
+    height: 200px; /* Set the height to your desired value */
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .content-scroll {
+    max-height: 320px; /* Adjust the maximum height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+
+
+

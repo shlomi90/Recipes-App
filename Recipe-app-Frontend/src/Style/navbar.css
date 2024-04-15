@@ -1,0 +1,51 @@
+/* navbar.css */
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 6px;
+    z-index: 1;
+}
+
+.navbar.navbar-light {
+    background-color: rgba(111, 234, 140, 0.7) !important; /* Set background color with transparency */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link, .navbar-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.75rem; /* Update border-radius to match the other buttons */
+    border-color: rgb(1, 71, 1); /* Set border color for consistency */
+    font-weight: 500; /* Set font weight for consistency */
+}
+
+.navbar-btn {
+    margin-right: 1rem;
+    background-color: #28a745 !important; /* Set background color */
+    color: #fff; /* Set text color */
+    border: 1px solid #28a745; /* Set border color */
+   
+}
+
+.navbar-btn:hover {
+    background-color: #033e0f !important; /* Set hover background color */
+    color: #fff; /* Set hover text color */
+}
+
+/* Additional styles for the three buttons on the right */
+.ml-auto .nav-link {
+    background-color: #28a745 !important; /* Set background color */
+    color: #fff; /* Set text color */
+    border: 1px solid #28a745; /* Set border color */
+    margin-right: 1rem; /* Add margin for space between buttons */
+}
+
+.ml-auto .nav-link:hover {
+    background-color: #033e0f !important; /* Set hover background color */
+    color: #fff; /* Set hover text color */
+}
+
+

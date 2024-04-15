@@ -1,0 +1,29 @@
+.custom-modal {
+    /* Existing styles */
+    width: 60%; /* Adjust the width as needed */
+    max-width: 800px; /* Set maximum width */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    font-family: 'arial', 'serif';
+    font-size: 16px;
+    text-align: center; /* Center text within the modal */
+    position: fixed; /* Ensure the modal stays in place */
+    transform: translate(50%, 10%); /* Adjust positioning */
+    z-index: 1000; /* Ensure the modal is on top of other content */
+}
+.modal-content {
+    box-shadow: none !important; /* Remove the shadow */
+    max-width: 100%; /* Allow content to take full width */
+}
+
+.profile-image{
+    max-width: 100px; /* Set maximum width */
+    max-height: 200px; /* Set maximum height */
+    border-radius: 50%; /* Create a circular shape */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure the image is centered */
+    margin-bottom: 20px; /* Add spacing between the image and other content */
+
+}

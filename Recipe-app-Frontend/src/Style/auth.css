@@ -1,0 +1,151 @@
+body {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    font-size: 95px;
+    font-family: 'georgia', 'serif';
+    font-weight: bold;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .font-style {
+    font-style: italic;
+  }
+  
+  .taste-color {
+    color: orange;
+    margin-bottom: 80px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    padding: 15px 16px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    font-family: 'georgia', 'serif';
+    font-weight: bold;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .custom {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .custom-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    z-index: 1000;
+    /* Make sure it's above other elements on the page */
+  }
+  
+  .modal-content {
+    background-color: #f4f5f2;
+    /* White background for the modal */
+    backface-visibility: inherit;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Box shadow for a subtle outline */
+    max-width: 400px;
+    /* Adjust the width as needed */
+    width: 100%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    /* Green */
+    border: none;
+    width: 180px;
+    padding: 15px 16px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    font-family:'arial', 'serif';
+    font-weight: bold;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-space {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .modal-button {
+   background-color: #4CAF50;
+   color: white;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    font-family:'arial', 'serif';
+  
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+ 
+  
+  

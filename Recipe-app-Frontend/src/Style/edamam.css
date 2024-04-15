@@ -1,0 +1,22 @@
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center; /* Vertically center the items */
+    height: 100vh; /* Set the height of the container to the full viewport height */
+  }
+  
+  .recipe-item {
+    margin: 10px; /* Adjust the margin as needed */
+    text-align: center;
+  }
+  
+  .recipe-item img {
+    max-width: 200px; /* Adjust the maximum width of the images */
+    height: auto;
+  }
+  .search-form {
+    margin-top: 100px; 
+    padding: 5px 600px;
+  }
+  

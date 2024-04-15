@@ -1,0 +1,64 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.modal-content {
+    background-color: #d0daaf;
+    backface-visibility: inherit;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #fefcfc;
+    max-height: 80vh; /* Set a maximum height for the modal content */
+    overflow-y: auto; /* Add scrollbar for vertical overflow */
+    
+  }
+
+  .comment {
+    margin-bottom: 10px; /* Space between comments */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f5f2;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack author and content vertically */
+  }
+  
+  .author {
+    font-weight: bold; /* Highlighting author */
+    margin-bottom: 5px; /* Space between author and content */
+  }
+  
+  .content {
+    margin-bottom: 10px; /* Space between content and buttons */
+  }
+  
+  button {
+    background-color: #38b61c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2f8e0b;
+  }
+
+  .delete {
+    background-color: #e74c3c;
+    margin-left: 10px;
+  }
+
+ 

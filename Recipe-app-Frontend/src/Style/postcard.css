@@ -1,0 +1,45 @@
+.card {
+  /* Existing styles */
+  width: 400px; /* Adjust width as needed */
+  height: 250px; /* Adjust height as needed */
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  font-family: 'arial', 'serif';
+  font-size: 16px;
+  color: #f3ebeb;
+  text-align: center;
+  background-size: 100% auto; /* Stretch the image horizontally while maintaining aspect ratio */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-position: center; /* Center the background image */
+  transition: transform 0.5s ease; /* Smooth transition for the box-shadow */
+  position: relative;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Increase box-shadow on hover */
+}
+
+.post-button {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px; /* Adjust padding for better button size */
+  cursor: pointer; /* Indicate interaction on hover */
+}
+
+.content-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(111, 234, 140, 0.7) /* Yellow background color with opacity */
+  
+}
+
+.post-content {
+  padding: 10px; /* Adjust padding as needed */
+}

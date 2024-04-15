@@ -1,0 +1,51 @@
+/* newpostmodal.css */
+
+.custom-modal {
+    /* Existing styles */
+    width: 60%; /* Adjust the width as needed */
+    max-width: 800px; /* Set maximum width */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    font-family: 'arial', 'serif';
+    font-size: 16px;
+    text-align: center; /* Center text within the modal */
+    position: fixed; /* Ensure the modal stays in place */
+    transform: translate(50%, 10%); /* Adjust positioning */
+    z-index: 1000; /* Ensure the modal is on top of other content */
+}
+
+.modal-content {
+    box-shadow: none !important; /* Remove the shadow */
+    max-width: 100%; /* Allow content to take full width */
+}
+
+.modal-content label {
+    margin-top: 10px; /* Adjust margin for labels */
+}
+
+.modal-content input[type="text"],
+.modal-content textarea {
+    .modal-content textarea {
+        height: auto; /* Remove fixed height */
+        min-height: 150px; /* Set a minimum height */
+        width: 100%; /* Make textarea full width */
+        padding: 10px; /* Adjust padding as needed */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 5px; /* Adjust margin for textarea */
+        resize: vertical; /* Allow vertical resizing of textarea */
+        white-space: pre-wrap; /* Preserve line breaks and wrap text */
+        overflow: auto; /* Add scroll bar when content overflows */
+    }
+}
+
+.modal-content textarea {
+    height: 200px; /* Adjust the height to show multiple lines */
+}
+
+.modal-content button[type="submit"] {
+    width: 100%; /* Make button full width */
+    margin-top: 20px; /* Adjust margin for button */
+}

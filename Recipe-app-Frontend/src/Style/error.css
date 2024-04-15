@@ -1,0 +1,18 @@
+/* auth_error.css */
+
+.auth-error-message {
+    background-color: #3ab213; /* Light red background color */
+    color: #040500; /* Dark red text color */
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #f5cbc6; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    border-width: 2px; /* Border width */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  
