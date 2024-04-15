@@ -1,0 +1,105 @@
+###
+
+Post http://localhost:3000/member
+
+Content-Type: application/json
+{
+    "name": "John",
+    "_id": "122"
+}
+
+
+###
+GET  http://localhost:3000/user
+
+###
+GET http://localhost:3000/user/1234589
+
+###
+PUT http://localhost:3000/user/
+
+Content-Type: application/json
+{
+    "name": "John",
+    "_id": "122"
+}
+
+###
+DELETE http://localhost:3000/user/122
+
+
+# Check post
+
+###
+GET http://localhost:3000/post
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWFjMzIwM2FhZDAzOGEzMTE3Mjc3MiIsImlhdCI6MTcwNDY0MTMxOSwiZXhwIjoxNzA0NjQ0OTE5fQ.pN9Qn9m7DfPDDuNO_mwx8zQBvSa3rwdy7HgXMS83RUQ
+
+
+###
+GET http://localhost:3000/post/1234589
+
+###
+POST http://localhost:3000/post
+Authorization: JWT  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTUxODQ2MjU1NjY1OWM3Y2QyY2Q4ZSIsImlhdCI6MTcwNTMxOTc5OSwiZXhwIjoxNzA1MzE5ODAyfQ.xTkhySq4j5mOkelSz1UU2_dDQUmkpX4hHyOdqKrRmFg
+
+Content-Type: application/json
+{
+    "title": "Your Title",
+    "message": "Your Message",
+    "owner": "Owner's Name"
+}
+   
+
+###
+PUT http://localhost:3000/post/1
+
+###
+DELETE http://localhost:3000/post/1
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OWFjMzIwM2FhZDAzOGEzMTE3Mjc3MiIsImlhdCI6MTcwNDY0MTMxOSwiZXhwIjoxNzA0NjQ0OTE5fQ.pN9Qn9m7DfPDDuNO_mwx8zQBvSa3rwdy7HgXMS83RUQ
+
+
+################## CHECK AUTH#####################
+
+
+###
+POST http://localhost:3000/auth/register
+
+Content-Type: application/json
+{
+    
+    "email": "shlomi",
+    "password": "123456"
+}
+
+
+
+###
+POST http://localhost:3000/auth/login
+
+Content-Type: application/json
+{
+    
+    "email": "shlomi",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/auth/logout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
