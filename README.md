@@ -49,6 +49,7 @@ Edit and Manage Posts: Edit or delete your recipes and comments to keep your con
 Real-Time Chat: Use the real-time chat feature to communicate with other users instantly.
 
 ## Screenshots
+![login](https://github.com/shlomi90/Recipes-App/blob/main/home.png?raw=true)
 
 
 ## Contributing
